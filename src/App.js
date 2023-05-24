@@ -1,3 +1,6 @@
+import './styles/globalStyles.scss'
+import PaginaInicial from "./pages/PaginaInicial";
+
 export default function App() {
-  return <h1>Alura Space</h1>;
+  return <PaginaInicial />
 }
