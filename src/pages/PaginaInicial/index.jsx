@@ -2,6 +2,7 @@ import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import FullBanner from '../../components/FullBanner';
 import styles from './PaginaInicial.module.scss';
+import Footer from '../../components/Footer';
 
 export default function PaginaInicial(){
     return (
@@ -13,6 +14,7 @@ export default function PaginaInicial(){
                     <FullBanner />
                 </section>
             </main>
+            <Footer />
         </>
     )
 }
