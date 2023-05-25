@@ -10,7 +10,7 @@ export default function Header(){
                 <input
                     className={styles.header__input}
                     type="text" 
-                    placeholder="O você procura?"
+                    placeholder="O que você procura?"
                 />
                 <img src={search} alt="ícone de lupa" />
             </div>
