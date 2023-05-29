@@ -1,3 +1,4 @@
+import Button from 'components/Button';
 import photosPopulares from './photos.populares.json';
 import styles from './Populares.module.scss';
 
@@ -14,7 +15,7 @@ export default function Populares() {
                 );
            })} 
         </ul>
-        <button>Ver mais fotos</button>
+        <Button>Ver mais fotos</Button>
     </aside>
   )
 }
